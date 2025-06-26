@@ -1,7 +1,7 @@
 
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
-
+const UserModel = require("../models/user.model");
 
 dotenv.config();
 
@@ -15,6 +15,8 @@ const authMiddleware = async (req, res, next) => {
      * 3. Check if the token is expired or not
      *  3.1 if expired, throw error
      *  3.2 If not expired, allow the user to access the API
+     * 4. Check if the token sent in request matches with the token stored in DB (ONLY IF WE WANT SINGLE LOGIN IN SYSTEM )
+     * 
      */
     const token = req.headers.authorization?.split(" ")?.[1];
     console.log(req.headers);
@@ -31,19 +33,27 @@ const authMiddleware = async (req, res, next) => {
     }
     try{
          const data = jwt.verify(token,process.env.JWT_SECRET_KEY);
-        //  console.log(data);
+         console.log(data); // Data from the token payload/body
+
+         const user = await UserModel.findById(data.id);
+        req.user = user; // Pass the user data to further API
+         console.log(user);
+
+
+         if(user.jwt !== token){
+            throw new Error("Unauthorized"); // old login
+         }
                 //   jwt.decode(token);
-                
+         next();
     } catch(err){
         console.log(err);
-        // return res.status(401)
-    //     .json({
-    //         success:false,
-    //         message:"Unauthorized"
-    //     })
+        return res.status(401)
+        .json({
+            success:false,
+            message:"Unauthorized"
+        })
     }
-
-
+    
  };
 
 module.exports = authMiddleware;

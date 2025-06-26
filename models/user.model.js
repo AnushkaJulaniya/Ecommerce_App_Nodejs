@@ -50,6 +50,23 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true,
     }
+    },
+    jwt: {
+       type:String,
+       required:false,
+       default: ""
+    },
+    role: {
+        type: String,
+        required:true,
+        enum:["CUSTOMER","SELLER","ADMIN"]
+    },
+    gender:{
+        type:String,
+        required:true,
+        default:"O",
+        // Gender fields: "M","F","O"
+        enum:["M","F", "O"]
     }
 },
 {

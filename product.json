@@ -1,0 +1,542 @@
+[
+{
+  "title": "Samsung Galaxy S21",
+  "description": "A high-end Android smartphone with powerful performance and sleek design.",
+  "price": 699,
+  "discountPercentage": 10.5,
+  "rating": 4.5,
+  "stock": 120,
+  "brand": "Samsung",
+  "category": "smartphones",
+  "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+  "images": [
+    "https://i.dummyjson.com/data/products/3/1.jpg",
+    "https://i.dummyjson.com/data/products/3/2.jpg",
+    "https://i.dummyjson.com/data/products/3/3.jpg",
+    "https://i.dummyjson.com/data/products/3/4.jpg",
+    "https://i.dummyjson.com/data/products/3/thumbnail.jpg"
+  ]
+},
+{
+    "title": "Galaxy S21",
+    "description": "A feature-rich Samsung smartphone with premium design and performance.",
+   "discountPercentage": 14.82,
+    "rating": 4.69,
+    "stock": 91,
+    "brand": "Samsung",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/1/1.jpg",
+      "https://i.dummyjson.com/data/products/1/2.jpg",
+      "https://i.dummyjson.com/data/products/1/3.jpg",
+      "https://i.dummyjson.com/data/products/1/4.jpg",
+      "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "iPhone 12",
+    "description": "A feature-rich Apple smartphone with premium design and performance.",
+    "price": 547,
+    "discountPercentage": 12.61,
+    "rating": 4.35,
+    "stock": 118,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/2/1.jpg",
+      "https://i.dummyjson.com/data/products/2/2.jpg",
+      "https://i.dummyjson.com/data/products/2/3.jpg",
+      "https://i.dummyjson.com/data/products/2/4.jpg",
+      "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Redmi Note 10",
+    "description": "A feature-rich Xiaomi smartphone with premium design and performance.",
+    "price": 265,
+    "discountPercentage": 16.49,
+    "rating": 4.72,
+    "stock": 59,
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/3/1.jpg",
+      "https://i.dummyjson.com/data/products/3/2.jpg",
+      "https://i.dummyjson.com/data/products/3/3.jpg",
+      "https://i.dummyjson.com/data/products/3/4.jpg",
+      "https://i.dummyjson.com/data/products/3/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "OnePlus 9R",
+    "description": "A feature-rich OnePlus smartphone with premium design and performance.",
+    "price": 678,
+    "discountPercentage": 9.88,
+    "rating": 4.51,
+    "stock": 84,
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/4/1.jpg",
+      "https://i.dummyjson.com/data/products/4/2.jpg",
+      "https://i.dummyjson.com/data/products/4/3.jpg",
+      "https://i.dummyjson.com/data/products/4/4.jpg",
+      "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Moto G60",
+    "description": "A feature-rich Motorola smartphone with premium design and performance.",
+    "price": 435,
+    "discountPercentage": 17.11,
+    "rating": 4.68,
+    "stock": 143,
+    "brand": "Motorola",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/5/1.jpg",
+      "https://i.dummyjson.com/data/products/5/2.jpg",
+      "https://i.dummyjson.com/data/products/5/3.jpg",
+      "https://i.dummyjson.com/data/products/5/4.jpg",
+      "https://i.dummyjson.com/data/products/5/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Nokia X20",
+    "description": "A feature-rich Nokia smartphone with premium design and performance.",
+    "price": 355,
+    "discountPercentage": 15.32,
+    "rating": 4.22,
+    "stock": 104,
+    "brand": "Nokia",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/6/1.jpg",
+      "https://i.dummyjson.com/data/products/6/2.jpg",
+      "https://i.dummyjson.com/data/products/6/3.jpg",
+      "https://i.dummyjson.com/data/products/6/4.jpg",
+      "https://i.dummyjson.com/data/products/6/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Realme GT",
+    "description": "A feature-rich Realme smartphone with premium design and performance.",
+    "price": 599,
+    "discountPercentage": 10.76,
+    "rating": 4.57,
+    "stock": 76,
+    "brand": "Realme",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/7/1.jpg",
+      "https://i.dummyjson.com/data/products/7/2.jpg",
+      "https://i.dummyjson.com/data/products/7/3.jpg",
+      "https://i.dummyjson.com/data/products/7/4.jpg",
+      "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Vivo V21",
+    "description": "A feature-rich Vivo smartphone with premium design and performance.",
+    "price": 488,
+    "discountPercentage": 8.44,
+    "rating": 4.31,
+    "stock": 67,
+    "brand": "Vivo",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/8/1.jpg",
+      "https://i.dummyjson.com/data/products/8/2.jpg",
+      "https://i.dummyjson.com/data/products/8/3.jpg",
+      "https://i.dummyjson.com/data/products/8/4.jpg",
+      "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Oppo Reno6",
+    "description": "A feature-rich Oppo smartphone with premium design and performance.",
+    "price": 472,
+    "discountPercentage": 11.19,
+    "rating": 4.41,
+    "stock": 98,
+    "brand": "Oppo",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/9/1.jpg",
+      "https://i.dummyjson.com/data/products/9/2.jpg",
+      "https://i.dummyjson.com/data/products/9/3.jpg",
+      "https://i.dummyjson.com/data/products/9/4.jpg",
+      "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Sony Xperia 5",
+    "description": "A feature-rich Sony smartphone with premium design and performance.",
+    "price": 782,
+    "discountPercentage": 13.95,
+    "rating": 4.75,
+    "stock": 48,
+    "brand": "Sony",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/10/1.jpg",
+      "https://i.dummyjson.com/data/products/10/2.jpg",
+      "https://i.dummyjson.com/data/products/10/3.jpg",
+      "https://i.dummyjson.com/data/products/10/4.jpg",
+      "https://i.dummyjson.com/data/products/10/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Galaxy A52",
+    "description": "A feature-rich Samsung smartphone with premium design and performance.",
+    "price": 429,
+    "discountPercentage": 13.25,
+    "rating": 4.36,
+    "stock": 75,
+    "brand": "Samsung",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/11/1.jpg",
+      "https://i.dummyjson.com/data/products/11/2.jpg",
+      "https://i.dummyjson.com/data/products/11/3.jpg",
+      "https://i.dummyjson.com/data/products/11/4.jpg",
+      "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "iPhone SE",
+    "description": "A feature-rich Apple smartphone with premium design and performance.",
+    "price": 539,
+    "discountPercentage": 11.75,
+    "rating": 4.29,
+    "stock": 83,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/12/1.jpg",
+      "https://i.dummyjson.com/data/products/12/2.jpg",
+      "https://i.dummyjson.com/data/products/12/3.jpg",
+      "https://i.dummyjson.com/data/products/12/4.jpg",
+      "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Redmi K40",
+    "description": "A feature-rich Xiaomi smartphone with premium design and performance.",
+    "price": 379,
+    "discountPercentage": 12.33,
+    "rating": 4.48,
+    "stock": 72,
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/13/1.jpg",
+      "https://i.dummyjson.com/data/products/13/2.jpg",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/4.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "OnePlus Nord",
+    "description": "A feature-rich OnePlus smartphone with premium design and performance.",
+    "price": 499,
+    "discountPercentage": 10.55,
+    "rating": 4.54,
+    "stock": 66,
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/14/1.jpg",
+      "https://i.dummyjson.com/data/products/14/2.jpg",
+      "https://i.dummyjson.com/data/products/14/3.jpg",
+      "https://i.dummyjson.com/data/products/14/4.jpg",
+      "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Moto Edge 20",
+    "description": "A feature-rich Motorola smartphone with premium design and performance.",
+    "price": 449,
+    "discountPercentage": 8.95,
+    "rating": 4.32,
+    "stock": 89,
+    "brand": "Motorola",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/15/1.jpg",
+      "https://i.dummyjson.com/data/products/15/2.jpg",
+      "https://i.dummyjson.com/data/products/15/3.jpg",
+      "https://i.dummyjson.com/data/products/15/4.jpg",
+      "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Nokia G50",
+    "description": "A feature-rich Nokia smartphone with premium design and performance.",
+    "price": 329,
+    "discountPercentage": 11.61,
+    "rating": 4.19,
+    "stock": 93,
+    "brand": "Nokia",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/16/1.jpg",
+      "https://i.dummyjson.com/data/products/16/2.jpg",
+      "https://i.dummyjson.com/data/products/16/3.jpg",
+      "https://i.dummyjson.com/data/products/16/4.jpg",
+      "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Realme Narzo",
+    "description": "A feature-rich Realme smartphone with premium design and performance.",
+    "price": 299,
+    "discountPercentage": 14.77,
+    "rating": 4.23,
+    "stock": 102,
+    "brand": "Realme",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/17/1.jpg",
+      "https://i.dummyjson.com/data/products/17/2.jpg",
+      "https://i.dummyjson.com/data/products/17/3.jpg",
+      "https://i.dummyjson.com/data/products/17/4.jpg",
+      "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Vivo Y73",
+    "description": "A feature-rich Vivo smartphone with premium design and performance.",
+    "price": 319,
+    "discountPercentage": 10.12,
+    "rating": 4.17,
+    "stock": 88,
+    "brand": "Vivo",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/18/1.jpg",
+      "https://i.dummyjson.com/data/products/18/2.jpg",
+      "https://i.dummyjson.com/data/products/18/3.jpg",
+      "https://i.dummyjson.com/data/products/18/4.jpg",
+      "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Oppo A74",
+    "description": "A feature-rich Oppo smartphone with premium design and performance.",
+    "price": 339,
+    "discountPercentage": 12.99,
+    "rating": 4.28,
+    "stock": 110,
+    "brand": "Oppo",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/19/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/19/1.jpg",
+      "https://i.dummyjson.com/data/products/19/2.jpg",
+      "https://i.dummyjson.com/data/products/19/3.jpg",
+      "https://i.dummyjson.com/data/products/19/4.jpg",
+      "https://i.dummyjson.com/data/products/19/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Sony Xperia 10",
+    "description": "A feature-rich Sony smartphone with premium design and performance.",
+    "price": 589,
+    "discountPercentage": 13.45,
+    "rating": 4.47,
+    "stock": 79,
+    "brand": "Sony",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/20/1.jpg",
+      "https://i.dummyjson.com/data/products/20/2.jpg",
+      "https://i.dummyjson.com/data/products/20/3.jpg",
+      "https://i.dummyjson.com/data/products/20/4.jpg",
+      "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Galaxy M32",
+    "description": "A feature-rich Samsung smartphone with premium design and performance.",
+    "price": 339,
+    "discountPercentage": 9.12,
+    "rating": 4.11,
+    "stock": 112,
+    "brand": "Samsung",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/21/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/21/1.jpg",
+      "https://i.dummyjson.com/data/products/21/2.jpg",
+      "https://i.dummyjson.com/data/products/21/3.jpg",
+      "https://i.dummyjson.com/data/products/21/4.jpg",
+      "https://i.dummyjson.com/data/products/21/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "iPhone 13",
+    "description": "A feature-rich Apple smartphone with premium design and performance.",
+    "price": 849,
+    "discountPercentage": 10.6,
+    "rating": 4.78,
+    "stock": 61,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/22/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/22/1.jpg",
+      "https://i.dummyjson.com/data/products/22/2.jpg",
+      "https://i.dummyjson.com/data/products/22/3.jpg",
+      "https://i.dummyjson.com/data/products/22/4.jpg",
+      "https://i.dummyjson.com/data/products/22/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Redmi Note 11",
+    "description": "A feature-rich Xiaomi smartphone with premium design and performance.",
+    "price": 279,
+    "discountPercentage": 13.45,
+    "rating": 4.33,
+    "stock": 115,
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/23/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/23/1.jpg",
+      "https://i.dummyjson.com/data/products/23/2.jpg",
+      "https://i.dummyjson.com/data/products/23/3.jpg",
+      "https://i.dummyjson.com/data/products/23/4.jpg",
+      "https://i.dummyjson.com/data/products/23/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "OnePlus 10R",
+    "description": "A feature-rich OnePlus smartphone with premium design and performance.",
+    "price": 699,
+    "discountPercentage": 9.89,
+    "rating": 4.45,
+    "stock": 87,
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/24/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/24/1.jpg",
+      "https://i.dummyjson.com/data/products/24/2.jpg",
+      "https://i.dummyjson.com/data/products/24/3.jpg",
+      "https://i.dummyjson.com/data/products/24/4.jpg",
+      "https://i.dummyjson.com/data/products/24/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Moto G Power",
+    "description": "A feature-rich Motorola smartphone with premium design and performance.",
+    "price": 369,
+    "discountPercentage": 11.58,
+    "rating": 4.25,
+    "stock": 92,
+    "brand": "Motorola",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/25/1.jpg",
+      "https://i.dummyjson.com/data/products/25/2.jpg",
+      "https://i.dummyjson.com/data/products/25/3.jpg",
+      "https://i.dummyjson.com/data/products/25/4.jpg",
+      "https://i.dummyjson.com/data/products/25/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Nokia 5.4",
+    "description": "A feature-rich Nokia smartphone with premium design and performance.",
+    "price": 299,
+    "discountPercentage": 13.15,
+    "rating": 4.13,
+    "stock": 70,
+    "brand": "Nokia",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/26/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/26/1.jpg",
+      "https://i.dummyjson.com/data/products/26/2.jpg",
+      "https://i.dummyjson.com/data/products/26/3.jpg",
+      "https://i.dummyjson.com/data/products/26/4.jpg",
+      "https://i.dummyjson.com/data/products/26/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Realme C25",
+    "description": "A feature-rich Realme smartphone with premium design and performance.",
+    "price": 249,
+    "discountPercentage": 15.85,
+    "rating": 4.22,
+    "stock": 116,
+    "brand": "Realme",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/27/1.jpg",
+      "https://i.dummyjson.com/data/products/27/2.jpg",
+      "https://i.dummyjson.com/data/products/27/3.jpg",
+      "https://i.dummyjson.com/data/products/27/4.jpg",
+      "https://i.dummyjson.com/data/products/27/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Vivo T1",
+    "description": "A feature-rich Vivo smartphone with premium design and performance.",
+    "price": 309,
+    "discountPercentage": 14.36,
+    "rating": 4.35,
+    "stock": 99,
+    "brand": "Vivo",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/28/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/28/1.jpg",
+      "https://i.dummyjson.com/data/products/28/2.jpg",
+      "https://i.dummyjson.com/data/products/28/3.jpg",
+      "https://i.dummyjson.com/data/products/28/4.jpg",
+      "https://i.dummyjson.com/data/products/28/thumbnail.jpg"
+    ]
+  },
+  {
+    "title": "Oppo F19",
+    "description": "A feature-rich Oppo smartphone with premium design and performance.",
+    "price": 359,
+    "discountPercentage": 12.78,
+    "rating": 4.39,
+    "stock": 101,
+    "brand": "Oppo",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/29/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/29/1.jpg",
+      "https://i.dummyjson.com/data/products/29/2.jpg",
+      "https://i.dummyjson.com/data/products/29/3.jpg",
+      "https://i.dummyjson.com/data/products/29/4.jpg",
+      "https://i.dummyjson.com/data/products/29/thumbnail.jpg"
+    ]
+  }
+
+]

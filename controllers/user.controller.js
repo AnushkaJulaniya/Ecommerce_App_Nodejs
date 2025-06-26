@@ -11,7 +11,10 @@ const register = async (req , res) => {
 //    Todo : Write validation for req body
 
 
-await UserModel.create(req.body);
+await UserModel.create({
+    ...req.body,
+    role:"CUSTOMER"
+});
  
 // await UserModel.create({...req.body,password:passwordHash
 // });
@@ -55,8 +58,17 @@ const jwtData = {
 };
 
 const token = jwt.sign(jwtData, process.env.JWT_SECRET_KEY, {
-    expiresIn: "2h"
+    expiresIn: "3d"
 });
+
+await UserModel.findByIdAndUpdate(user._id, {
+    $set: {
+        jwt: token
+    }
+
+})
+
+// res.cookie("jwt",token); // To set jwt in browser cookie
 res.json({
     success:true,
     message:"Logged in successfully",

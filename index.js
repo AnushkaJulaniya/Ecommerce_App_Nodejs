@@ -34,7 +34,7 @@ app.use(express.urlencoded({extended : true }))
 
 
 mongoose
-.connect(process.env.DB_URL)
+.connect(process.env.MONGODB_URL)
 .then(()=>console.log(`DB connected successfully`))
 .catch(err => console.log(`DB connection Error, ${err}`))
 

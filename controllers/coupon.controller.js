@@ -1,4 +1,26 @@
 const CouponModel = require("../models/coupon.model")
+// const cron = require("node-cron");
+
+
+// const expireCoupon = async() => {
+//     console.log("expire call")
+//     try {
+//         const result = await CouponModel.updateMany({
+//             endDate: {
+//                 $lt: new Date()
+//             }
+//         }, {
+//             $set: {
+//                 isActive: false
+//             }
+//         })
+//     }
+//     catch(err){
+//         console.error(err)
+//     }
+// }
+
+// cron.schedule("* * * * * *", expireCoupon);
 
 const createCoupon = async(req , res) => {
     //Todo : Write your Validations here

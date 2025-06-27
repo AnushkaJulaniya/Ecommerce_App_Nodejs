@@ -1,6 +1,12 @@
-const CartModel = require("../models/cart.model");
-
-
+  
+  const dayjs = require("dayjs");
+  const isBetween = require("dayjs/plugin/isBetween");
+  const CartModel = require("../models/cart.model");
+  const CouponModel = require("../models/coupon.model");
+  const ProductModel = require("../models/product.model");
+  const OrderModel = require("../models/order.model");
+const { findByIdAndDelete } = require("../models/user.model");
+  dayjs.extend(isBetween);
 
 const createOrder = async(req, res) => {
     /**
@@ -50,10 +56,95 @@ if(!productsAvaliable){
     })
 }   
 
-const total = userCart.reduce((acc, cb) => cb => cb.productId.price * cb.productId.qty, 0)
+const total = userCart.reduce((acc, cb) => acc +( cb.productId.price * cb.productId.qty, 0))
+
+
+// Coupon calculations
+
+let finalDiscount = 0;
+   if(req.body.coupon){
+    const coupon = await couponModel.findOne({ code: req.bofy.coupon });
+    if(!coupon) {
+        // Invalid coupon
+
+        return res
+        .status(400)
+        .json({
+            success:false,
+            message:"Invalid coupon code"
+        })
+    }
+   console.log(total);
+    /**
+     * Check  following - 
+     * 1. Min order value
+     * 2. Coupon start and end date
+     * 3. Calculate max discount
+     */
+   if(total < coupon.minOrderValue){
+      return res.status(400).json({
+        success:false,
+        message: `Min order value for this coupon is ${coupon.minOrderValue}`
+      })
+   }
+
+   const startDate = dayjs(coupon.startDate);
+   const endDate = dayjs(coupon.endDate);
+   const currentDate = dayjs();
+   console.log(coupon.startDate);
+   console.log(startDate);
+   
+
+   const isCouponDateInBetween = currentDate.isBetween(startDate,endDate);
+   console.log(isCouponDateInBetween);
+
+   if(isCouponDateInBetween){
+    return res.status(400)
+    .json({
+        success:false,
+        message:"coupon is expired or to be used in future"
+    })
+   }
+
+   const discount = (total * coupon.discountPercentage) / 100;
+   const maxDiscount = coupon.maxDiscountValue;
+    finalDiscount = Math.min(discount,maxDiscount); 
+console.log(finalDiscount);
+} 
+
+const grandTotal = total - finalDiscount;
+
+
+//Reduce the qty of the items purchased
+for(let product of userCart.products){
+    console.log(product.productId, product.qty);
+    await ProductModel.findByIdAndUpdate(product.productId._id,{
+        // ++ / -- => $inc
+        $inc: {
+            stock:-product.qty
+        }
+    })
+}
+// Payment modes
+ if(req.body.paymentMode === "ONLINE"){
+    // Redirect the user to payment gateway and return  the response
+ }
+//Store order data in db
+ await OrderModel.create({
+    products: userCart.products,
+    coupon:req.body.coupon,
+    user:req.user._id,
+    modeOfPayment:req.body.paymentMode,
+    orderTotal:grandTotal,
+    orderStatus: req.body.paymentMode === "ONLINE" ? "PAYMENT_PENDING" : "IN_TRANSIT",
+    deliveryAddress:req.user.Address
+ });
+
+ await CartModel/findByIdAndDelete({_id: userCart._id});
+
 res.json({
     success:true,
-    message:"Place order API",
+    message:"Order Place Successfully ",
     data:userCart
 
 })
